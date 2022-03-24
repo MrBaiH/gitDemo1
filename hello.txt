@@ -5,3 +5,4 @@ git rm --cached hello.txt 从暂存区删掉hello.txt
 git commit -m"日志信息" 文件名 将文件提交本地库
 git reflog 查看日志信息
 git log 详细日志信息
+git reset --hard 版本号 版本穿梭(底层是移动的head指针下的master指针)
