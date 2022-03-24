@@ -3,3 +3,5 @@ git add hello.txt 添加暂存区
 git --version git版本
 git rm --cached hello.txt 从暂存区删掉hello.txt
 git commit -m"日志信息" 文件名 将文件提交本地库
+git reflog 查看日志信息
+git log 详细日志信息
