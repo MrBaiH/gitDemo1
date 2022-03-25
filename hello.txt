@@ -18,4 +18,11 @@ git remote 别名 链接 给远程库创建别名
 git remote gitDemo1 https://github.com/MrBaiH/gitDemo1.git
 推送
 git push 别名 分支名
-例如：git push gitDemo1 master 推送master分支的文件 
+例如：git push gitDemo1 master 推送master分支的文件
+拉取
+git pull 别名 分支名
+例如：git pull gitDemo1 master 拉取master分支的gitDemo1
+克隆
+git clone 链接
+例如：git clone https://github.com/MrBaiH/gitDemo1.git
+拉取代码  创建本地库 创建别名
