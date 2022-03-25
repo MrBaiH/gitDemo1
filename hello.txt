@@ -12,4 +12,10 @@ git branch 分支名 创建新的分支
 hit checkout 分支名 切换分支
 分支合并
 git merge 分支名 表示当前分支合并分支
-
+创建远程库
+git remote -v 查看别名
+git remote 别名 链接 给远程库创建别名
+git remote gitDemo1 https://github.com/MrBaiH/gitDemo1.git
+推送
+git push 别名 分支名
+例如：git push gitDemo1 master 推送master分支的文件 
