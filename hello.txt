@@ -26,3 +26,4 @@ git pull 别名 分支名
 git clone 链接
 例如：git clone https://github.com/MrBaiH/gitDemo1.git
 拉取代码  创建本地库 创建别名
+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
